@@ -1,10 +1,30 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 28.nov.2018, 11:39:10
-    Author     : malin
-*/
-
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+ul a {
+  display: block;
+  width: 120px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 2px;
+  color: #333333
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #768dff
+}
+ul a:hover {
+  background-color: #abb9ff
+}
+.container {
+  display: flex;
+}
+.innpakning {
+width: 80%;
+background-color: #b2b8c9; 
+margin: auto; 
+display: flex; 
+flex-direction: row; 
+flex-wrap: wrap; 
+} 
