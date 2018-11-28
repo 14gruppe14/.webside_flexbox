@@ -12,7 +12,7 @@ ul a {
   color: #333333
   font-weight: bold;
   text-decoration: none;
-  background-color: #768dff
+  background-color: #9fd0e8
 }
 ul a:hover {
   background-color: #abb9ff
@@ -25,6 +25,15 @@ width: 80%;
 background-color: #b2b8c9; 
 margin: auto; 
 display: flex; 
-flex-direction: row; 
+flex-direction: column; 
 flex-wrap: wrap; 
 } 
+ul {
+    height:auto;
+    padding: 5px;
+    margin: 5px;   
+}
+.topptekst {
+    text-align: center;
+    margin: 20px;
+}
