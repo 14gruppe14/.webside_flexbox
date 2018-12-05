@@ -1,27 +1,49 @@
+
+
 ul {
   list-style-type:none;
   margin:0;
   padding:0;
 }
-ul a {
+ul li {
+    display: inline;
+}
+ul a{
+    padding: 10px 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
   display: block;
-  width: 120px;
-  padding: 10px;
-  border-radius: 5px;
-  margin: 2px;
-  color: #333333;
-  font-weight: bold;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  background-color: #9fd0e8
+  font-size: 17px;
 }
-ul a:hover {
-  background-color: #abb9ff
-}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+} 1
+
 .container {
   display: flex;
 }
 .innpakning {
-width: 80%;
+width:auto;
 background-color: #b2b8c9; 
 margin: auto; 
 display: flex; 
@@ -35,5 +57,14 @@ ul {
 }
 .topptekst {
     text-align: center;
-    margin: 20px;
+    padding: 60px;
+    background-image: url(vann.jpg);
+    repeat: none;
+    color: #000000;
+}
+
+.main {
+  padding: 1px;
+  margin-top: 30px;
+  height: 1000px; 
 }
