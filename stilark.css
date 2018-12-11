@@ -9,7 +9,7 @@
       .header {
           padding: 60px;
           text-align: center;
-          background-image: url('bilder/vann.jpg')
+          background: #1abc9c;
           color: white;
       }
       .navbar {
