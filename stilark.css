@@ -14,7 +14,8 @@
       }
       .navbar {
           display: flex;
-          background-color: #333
+          background-color: #333;
+          padding: 10px;
       }
       /*styler linkene*/
       .navbar a {
@@ -25,8 +26,7 @@
       }
       /*forandrer når du er over linkene*/
       .navbar a:hover {
-          background-color: #ddd;
-          
+          background-color: #ddd;  
       }
       .rad {
           display: flex;
