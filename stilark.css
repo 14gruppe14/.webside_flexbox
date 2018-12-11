@@ -7,9 +7,12 @@
           margin: 0;
       }
       .header {
+           background-image: url('bilder/vann.png');
+}  
+      .header {
           padding: 60px;
           text-align: center;
-          background-image: url("bilder/vann.png");
+          
           color: white;
       }
       .navbar {
