@@ -7,7 +7,7 @@
           margin: 0;
       }
       .header {
-          padding: auto;
+          padding: 100px;
           text-align: center;
           background-image: url("bilder/vann.png");
           color: white;
