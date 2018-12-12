@@ -7,10 +7,9 @@
           margin: 0;
       }
       .header {
-          padding: 100px; 
+          paddin: 60px;
           text-align: center;
-          background-image: url("bilder/vann.png");
-          height: auto;
+          background: #1abc9c;
           color: white;
       }
       .navbar {
